@@ -14,7 +14,7 @@ public class Kataa2{
                 myMap.put(data[i], 1);
             }
         }
-        
+       
         for (int key : myMap.keySet()){
             System.out.println(key + " ==> " + myMap.get(key) + " veces");
         }
